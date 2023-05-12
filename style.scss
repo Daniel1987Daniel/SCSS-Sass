@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+
+body {
+    @include body;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.toTop.active {
+    @include toTopActive;
+}
+
+nav {
+    @include nav;
+}
+
+#nav_scroll_to_top {
+    @include nav_scroll_to_top;
+}
